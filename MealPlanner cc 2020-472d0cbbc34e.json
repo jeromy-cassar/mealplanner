@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "mealplanner-cc-2020",
+  "private_key_id": "472d0cbbc34eee5022655bc86e0fc0fe41b7ec7a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCkwsDdlJDfJ6RL\nZXVcGbEf+mNSZFvubfpKk6eEA5Hnxyg5jOS4d8H0YxQ6oBN2wFg/SXv5Ku4t8Jjc\nuCLX5dGT1ZUxtprG/G5SaBqBGJIrNsAXCQxmVlA0X7PBLMs7k3Dv/geub6fc75sM\n3WtXtfWFeAjyCyIqH+/fbxTtbS6PZBhPVxIv0aJsOxR7/EQCx3iHZyjW1NQXyzIf\nVk3N5ytuLAk6OFgkLElUVpmfRmiSkq9pLOQvREf29bSA5rEEUDQcKFCsDGcug5wx\nq4SrB4I9+PBugEjsiFtyomAbjqCE6p6Anm8zAR8lNSq/UckdV8wnY4yS8Y9p3LX9\nFV5VMMUHAgMBAAECggEAHlBe3+XnyccnaV/fefSYLEQLZitk5reBZ5tHJPjrLXPt\nKLmNk4slOmvIWwj8y8qT8gD5OFz3uagc1+9hKcv1BXg0nRL140qqmarhxYLZ0e2e\n5h4aE/Ipi5lYH2C4e9ui2eUpUKTmg7XqFzHeACNQayAstSvrO0jo/3kWpqCCAoui\nVPpTijVNxg476+lwOt07KOkWu8t4D2ePd7RecW6pbZ5gXEWryEmR1Y5d5vbnOuf+\nTYwc/Nv8tvHF3Gx6LpJj+/En3AbR9LbOKVHwWTYbuZ+Ht2ypilkHD1IrgbfqgBwz\nEu9f23sKDdj0nrepYErmEyAXlfcTeXLgq9/dZq58IQKBgQDb8vk5MC8+6jGx2v4O\n4bl/70A6KlrSqCAX6/aQYAEgK/H6CKlaFkJcQ+5qYFCZnzUQOc2U6ZUEKrxPwbXj\nDCZ70hzoRBgvHN2OBSxvNzK7c4uc8ASLK+u/z86rIRfjA+vacnd4slMTvy1qV/L0\njF0hxTAHWdx6LCiEFijKI1oPWQKBgQC/xBX97b16v3prCHwwBv6kWQySQka3HDJ+\nTEKF+pekU4NDaEpqgHIupKK1OdkD8lIWzwS6Ybse4QUbPe5MDr2ELpccNITM8tkT\nTxmxY48I84uoWq4qOExpLziJCH0FF+NlQdxXYan6ZSjckArh0LU7uoR6sPq58BOw\nKpil47ZLXwKBgCLQGVxQ4Rl/LfBtrgqi9Z5nOu455/gxviqrIXKGj4cNDZa6qjtl\nDInYArN5nShDh72SuJRaSEjJjta83VIbiTfN8N9eb8l9MyAYd4j+3pvG1RE4+C8i\n+4R3msmBSmuXIkyIE5rZ9sZIWyLa2syULuV6dXikY34+4QbPDxO3dri5AoGAWaPk\nj9WRDA7zv5Kw0paCc/q4WKooejHxHH6zXgOc3RC4vErE9nHibhFBiatn2WNtogHV\nePZ0TOPsyiYx/VWqm15X/rRCG7etZ0xDe1tJomqOLv1sionUlhqft9bC8h2Pi2a1\nBBfAKC8fYbLnk1VHUotGoD+YhFBIM8JFps4CCcsCgYAfp72piKsnsgQzm9zGsLmr\nAe9OC/sNF4QFncktEIlgGyEqwqCxdGS3wi5Xea4SCBsn3D59bIHPeF/sFFdURI1r\nmB5K17aUkUXxHDsxS7p8ZGmN19xtClNB5etTk7yXNUvru7Ca0yo+aDJfgsiabhy/\n/DvusfreYMqyDZsoQ3ZXAA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "securitykey@mealplanner-cc-2020.iam.gserviceaccount.com",
+  "client_id": "116080099635970719355",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/securitykey%40mealplanner-cc-2020.iam.gserviceaccount.com"
+}

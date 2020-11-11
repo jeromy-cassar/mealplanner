@@ -1,0 +1,10 @@
+# php v7.2
+runtime: php72
+
+handlers:
+  # Static files
+- url: /stylesheets
+  static_dir: stylesheets
+  # Controller
+- url: .*
+  script: auto

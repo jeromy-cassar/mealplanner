@@ -1,0 +1,256 @@
+/* CSS Stylesheet */
+*{
+    margin:0;
+    padding:0;
+    font-family:'Roboto', sans-serif !important;
+}
+/*Setup CSS Grid*/
+.html, .body{
+    width: 100%;
+    height: 100%;
+}
+.body{
+    background:white !important;
+}
+.wrapper{
+    color:white;
+    background-image:linear-gradient(to bottom left, rgb(112, 255, 112), green) !important;
+    display:grid;
+    grid-template-columns:10% 45% 40% 5%;
+    grid-template-rows:100px 1fr 50px;
+    grid-template-areas:
+        "header header header header"
+        "nav body body no"
+        "footer footer footer footer"
+        ;
+}
+/* Set grid areas*/
+header{grid-area: header; background:darkgreen;}
+nav{grid-area: nav;}
+.body{grid-area: body;}
+.filler{grid-area: no;}
+footer{grid-area: footer; background: darkgreen;}
+
+/*Styling*/
+.recipe-content{
+    display:grid;
+    grid-template-rows:200px 1fr 1fr;
+    grid-template-columns:200px 1fr;
+    grid-template-areas:
+    "img name"
+    ". content"
+    ". gmaps";
+}
+.img{grid-area:img;}
+.recipe-name{grid-area:name;}
+.recipe-file{grid-area:content;}
+.g-maps{grid-area:gmaps;}
+
+.greeting{
+    float:right;
+    margin-right:20px;
+}
+.recipe-item{
+    border:1px solid white;
+    display: grid;
+    grid-template-rows: 
+        50px 
+        50px;
+    grid-template-columns:100px 676px 100px;
+    grid-template-areas: 
+    "img name difficulty"
+    "img desc prep-time";
+}
+.food-img{
+    grid-area: img; 
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+.food-name{
+    grid-area: name; 
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.food-desc{
+    grid-area: desc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.food-difficulty{
+    grid-area: difficulty;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.food-preptime{
+    grid-area: prep-time;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipe-search form table tr td input, .recipe-search form table tr td select, .recipe-search form table tr td select option {
+   color: green;
+   border: 1px solid white;
+}
+#search-query{
+    height: 20px;
+    background: white !important;
+}
+#search-btn{
+    height: 20px;
+    background: white !important;
+}
+#search-btn:hover{
+    color: green !important;
+    border: none !important;
+}
+.recipe-search, .recipe-result{
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.recipe-search table{
+    padding: 20px 20px;
+    color: white;
+}
+.recipe-result table{
+    border: 1px solid white;
+    width: auto;
+    display: grid;
+    justify-items: center;
+}
+.recipe-search form{
+    box-shadow: none;
+    display: grid;
+    justify-items: center;
+}
+.recipe-container{
+    grid-area: body;
+}
+td{
+    text-align:center;
+}
+.active{
+    background: white;
+    border: 2px solid green;
+    color:green;
+    height:20px;
+    text-align:center;
+    margin:2px 0;
+}
+.active a{
+    color: green;
+    text-decoration: none;
+    list-style-type: none;
+}
+footer p{
+    text-align:center;
+    margin:7px 0;
+}
+#nav-item:not(.active) a, #logout-btn{
+    text-decoration: none;
+    list-style-type: none;
+    color:white;
+    font-weight:200;
+    font-size: 12pt;
+    cursor: pointer;
+    transition: 0.2s;
+}
+#logout-btn{
+    background: none;
+    border:none;
+    margin:0;
+    padding:0;
+}
+#nav-item:not(.active){
+    height:20px;
+    text-decoration: none;
+    list-style-type: none;
+    border:2px solid white;
+    text-align:center;
+    margin:2px 0;
+    transition: 0.2s;
+}
+#nav-item:hover{
+    background: white;
+    border: 2px solid green;
+    transition: 0.2s;
+    cursor: pointer;
+}
+#nav-item a:hover, #logout-btn:hover{
+    transition: 0.2s;
+    color: green;
+    cursor: pointer;
+} 
+.body p:not(footer p), .body h2{
+    text-align: left;
+}
+h2{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+footer{
+    text-align:center;
+    word-wrap: break-word; /*Text wrap to next line*/
+}
+
+.heading{
+    background:rgb(7, 92, 7);
+    color:white;
+    margin-bottom:12px;
+}
+body{
+    background:green;
+    display:grid;
+}
+h1{
+    color:white;
+    text-align:center;
+    margin:10px;
+}
+form p{
+    font-size:8pt;
+    padding:10px 0;
+}
+/* Form and input styling */
+form:not(#logout-form, .recipe-search form){
+    background:rgba(255,255,255,0.9);
+    color:green;
+    border-radius: 6px;   
+    font-weight: bold;
+    width: 25%;
+    top:50%;
+    bottom:50%;
+    position: relative;
+    margin:auto;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+input:not(#logout-btn, .recipe-search){
+    border: 1px solid rgb(8, 160, 8);
+    border-radius: 3px;
+    background: white;
+    transition: 0.3s;
+    color:green;
+}
+input:not(#logout-btn){
+    transition: 0.3s;
+    background: lightgrey;
+}
+input:not(input[type=submit], input[type=reset], input:not(#logout-btn, .recipe-search input)){
+    width: 60px !important;
+}
+input[type=submit], input[type=reset], input:not(#logout-btn, .recipe-search input){
+    padding: 5px;
+    margin: 5px;
+    transition: 0.3s;
+    font-weight:bold;
+}
+input[type=submit]:not(#logout-btn):hover, input[type=reset]:hover{
+    background: green;
+    color:white;
+    border: 1px solid rgb(8, 160, 8);
+}
